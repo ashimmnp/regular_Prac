@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+h1{
+    background-color: rgb(208, 241, 88);
+    color: rgb(0, 162, 255);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 5px red;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+p{
+    line-height: 20px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    background-color: rgb(171, 255, 171);
+    color: blue;
+    font-size: 18px;
+}
+
+/* Media queries */
+/*laptop*/
+@media screen and (min-width:769px) and (max-width:1024px){
+    
+h1{
+    background-color: rgb(208, 241, 88);
+    color: rgb(0, 162, 255);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 5px red;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+p{
+    line-height: 20px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    background-color: rgb(171, 255, 223);
+    color: blue;
+    font-size: 18px;
+}
+
+}
+/* tablets */
+@media screen and (min-width:481px) and (max-width:768px){
+
+    h1{
+        background-color: rgb(208, 241, 88);
+        color: rgb(0, 162, 255);
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-shadow: 2px 3px 5px red;
+        font-family: 'East Sea Dokdo', cursive;
+        font-size: 55px;
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    p{
+        line-height: 20px;
+        text-transform: lowercase;
+        letter-spacing: 5px;
+        background-color: rgb(255, 214, 171);
+        color: blue;
+        font-size: 18px;
+    }
+}
+/*Mobiles*/
+@media screen and (min-width:320px) and (max-width:480px){
+
+    h1{
+        background-color: rgb(208, 241, 88);
+        color: rgb(0, 162, 255);
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-shadow: 2px 3px 5px red;
+        font-family: 'East Sea Dokdo', cursive;
+        font-size: 55px;
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    p{
+        line-height: 20px;
+        text-transform: lowercase;
+        letter-spacing: 5px;
+        background-color: rgb(171, 189, 255);
+        color: blue;
+        font-size: 18px;
+    }
+}
+
